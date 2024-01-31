@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
@@ -17,5 +15,10 @@ public class EndScript : MonoBehaviour
     public void RestartQuiz()
     {
         SceneManager.LoadScene("Quiz");
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
     }
 }

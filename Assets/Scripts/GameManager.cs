@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
@@ -54,7 +52,6 @@ public class GameManager : MonoBehaviour
     public int fragenCountFF;
 
 
-    // Start is called before the first frame update
     void Start()
     {
         fragenCount = 1;
@@ -63,7 +60,6 @@ public class GameManager : MonoBehaviour
         Shuffle(answeres);
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (fragenCountFF == 5)
@@ -95,10 +91,6 @@ public class GameManager : MonoBehaviour
             antwort1Text.text = "2024";
             antwort2Text.text = "2022";
             antwort3Text.text = "2023";
-
-            /*  fragenButtonImage1.color = Color.white;
-              fragenButtonImage2.color = Color.white;
-              fragenButtonImage3.color = Color.white; */
         }
 
         if (fragenCount == 2)
@@ -109,10 +101,6 @@ public class GameManager : MonoBehaviour
             antwort1Text.text = "Rollerball";
             antwort2Text.text = "Jumpingball";
             antwort3Text.text = "Runningball";
-
-            /*  fragenButtonImage1.color = Color.white;
-              fragenButtonImage2.color = Color.white;
-              fragenButtonImage3.color = Color.white; */
         }
 
         if (fragenCount == 3)
@@ -123,10 +111,6 @@ public class GameManager : MonoBehaviour
             antwort1Text.text = "HTBLuVA";
             antwort2Text.text = "HTBLuvA";
             antwort3Text.text = "HTLBuVA";
-
-            /*  fragenButtonImage1.color = Color.white;
-                        fragenButtonImage2.color = Color.white;
-                        fragenButtonImage3.color = Color.white; */
         }
 
         if (fragenCount == 4)
@@ -137,10 +121,6 @@ public class GameManager : MonoBehaviour
             antwort1Text.text = "Mittwoch";
             antwort2Text.text = "Donnerstag";
             antwort3Text.text = "Montag";
-
-            /*  fragenButtonImage1.color = Color.white;
-                        fragenButtonImage2.color = Color.white;
-                        fragenButtonImage3.color = Color.white; */
         }
 
         if (fragenCount == 5)
@@ -151,10 +131,6 @@ public class GameManager : MonoBehaviour
             antwort1Text.text = "Scriptable Object";
             antwort2Text.text = "PlayerPrefs";
             antwort3Text.text = "if-Schleife";
-
-            /*  fragenButtonImage1.color = Color.white;
-                        fragenButtonImage2.color = Color.white;
-                        fragenButtonImage3.color = Color.white; */
         }
 
         /* if (fragenCount == maxFragen)
