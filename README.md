@@ -34,6 +34,3 @@ Es konnte Aufgrund der Struktur des Quizzes keine Mehrfachantwortmöglichkeiten 
 
 ## Lessons Learned
 Ich sollte öfters for-Loops verwenden. Vorallem bei öfters wiederkehrenden Elementen, wie Fragen in einem Quiz.
-
-## Lizenz
--
